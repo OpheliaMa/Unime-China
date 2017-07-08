@@ -1,0 +1,37 @@
+.project_content_title {
+    color: #DC2C2C;
+    font-size: 18px;
+}
+
+.project_content_sub_title {
+    color: #DC2C2C;
+    font-size: 16px;
+}
+
+.project_content_item h6 {
+    color: #DC2C2C;
+    font-size: 14px;
+}
+
+.project_content_item {
+    background-color: #FFFFFF;
+    position: relative;
+    padding-top: 1.869%;
+    padding-bottom: 1.8%;
+    width: 48%;
+    padding-left: 12%;
+    left: 20%;
+    margin-bottom: 3%;
+}
+
+.project_content_item img {
+    position: absolute;
+    width: 24.4791%;
+    left: -8%;
+}
+
+.project_content_item p {
+    line-height: 24px;
+    font-size: 14px;
+    color: #151515;
+}

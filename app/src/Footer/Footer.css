@@ -1,0 +1,48 @@
+.home_footer {
+    background-color: #333333;
+    height: 0;
+    padding-bottom: 7.8125%;
+    position: relative;
+}
+
+.home_footer_logo_container {
+    left: 10.572%;
+    width: 9.062%;
+    position: absolute;
+    top: 28.571%;
+    font-size: 0;
+}
+
+.home_footer_logo {
+    max-width: 100%;
+}
+
+.home_footer_nav {
+    position: absolute;
+    left: 22.291%;
+    min-width: 77%;
+    top: 29.571%;
+}
+
+.home_footer_nav div {
+    float: left;
+    font-size: 0;
+}
+
+.home_footer_nav i {
+    float: left;
+    width: 2px;
+    background-color: #979797;
+    height: 12px;
+    margin-top: 6.5px;
+}
+
+.home_footer_nav_text {
+    padding-left: 2.08%;
+    padding-right: 2.08%;
+}
+
+.home_footer_nav div a {
+    color: #FFFFFF;
+    font-size: 0.7rem;
+}

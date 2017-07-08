@@ -1,0 +1,53 @@
+.service_container {
+    position: relative;
+}
+
+.service_kv {
+    background-size: auto;
+    background: transparent url("http://oq9er0rnu.bkt.clouddn.com/service_kv.png") no-repeat 50% 50%;
+    height: 0;
+    padding-bottom: 33.85%;
+}
+
+.service_empty {
+    height: 430px;
+    background-color: #fafafa;
+}
+
+.service_content_container {
+    position: absolute;
+    width: 980px;
+    height: 390px;
+    left: 50%;
+    top: 61%;
+    background-color: #FFFFFF;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.service_content_container_inner {
+    position: relative;
+    padding-left: 84px;
+    padding-top: 54px;
+}
+
+.service_content_container_inner img {
+    position: absolute;
+    right: 0;
+    top: 120px;
+}
+
+.service_content_title {
+    font-size: 32px;
+    color: #DC2C2C;
+    margin-bottom: 20px;
+}
+
+.service_content_desc p {
+    font-size: 14px;
+    color: #333;
+    line-height: 32px;
+}

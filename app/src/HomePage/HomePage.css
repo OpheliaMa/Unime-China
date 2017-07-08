@@ -1,0 +1,205 @@
+:global(.homepage_kv) {
+    background-size: auto;
+    background: transparent url("http://oq9er0rnu.bkt.clouddn.com/home_kv.png") no-repeat 50% 50%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+:global(.homepage_gallery) {
+    width: auto;
+    padding-left: 22.2395%;
+    padding-right: 22.2395%;
+    margin-top: 120px;
+    overflow: auto;
+}
+
+:global(.home_gal_item) {
+    display: block;
+    width: 46.5%;
+    float: left;
+    cursor: pointer;
+}
+
+:global(.home_gal_3plusn) {
+    float: right;
+}
+
+:global(.home_gal_elites) {
+    float: right;
+}
+
+:global(.home_gal_dbm) {
+    margin-top: 6%;
+}
+
+:global(.home_gal_elites) {
+    margin-top: 6%;
+}
+
+.home_gal_item img.home_gal_item_cover {
+    max-width: 100%;
+    border: none;
+}
+
+.home_gal_item img.home_gal_item_cover_indicator {
+    position: absolute;
+    width: 12%;
+    top: 44%;
+    left: 44%;
+}
+
+.home_gal_item_cover_container {
+    position: relative;
+    font-size: 0;
+}
+
+:global(.home_gal_item_des_container) {
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    position: relative;
+    /* 实现高宽同一比例缩放 */
+    height: 0;
+    padding-bottom: 32.62%; /* padding按百分比计算 是父元素宽度的百分比 */
+    overflow: hidden;
+}
+
+.home_gal_item:hover .home_gal_item_des_container {
+    background-color: #DC2C2C;
+}
+
+.home_gal_item:hover p {
+    color: #FFFFFF;
+}
+
+:global(.home_gal_item_des_container_3pn) {
+    background-color: #DC2C2C;
+}
+
+:global(.home_gal_item_des) {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    color: #666666;
+    text-align: center;
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 1420px) {
+    .home_gal_item_des {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .home_gal_item_des {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+    .home_gal_item_des {
+        font-size: 14px;
+    }
+}
+
+.nzup_logo {
+    max-width: 100%;
+    margin-top: 11%;
+}
+
+.home_registration {
+    background-color: #FBFBFB;
+    margin-top: 6%;
+    padding-bottom: 4%;
+}
+
+.home_reg_title {
+    display: block;
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    padding-top: 3.125%;
+    padding-bottom: 1.04%;
+}
+
+.home_reg_title_indicator {
+    background: #DC2C2C;
+    width: 3.125%;
+    height: 6px;
+    margin: 0 auto;
+    font-size: 0;
+    display: block;
+}
+
+.home_reg_form {
+    padding-top: 5%;
+    overflow: auto;
+}
+
+.home_reg_form_row {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.home_reg_form_label {
+    width: 40.50%;
+    float: left;
+    text-align: right;
+    color: #666666;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+}
+
+.home_reg_form_input {
+    width: 58%;
+    float: right;
+}
+
+.home_reg_form_input_container {
+    border: 1px solid #E2E2E2;
+    width: 31.25%;
+    height: 0;
+    padding-bottom: 3.125%;
+}
+
+.home_reg_reg_btn {
+    width: 31.25%;
+    background: #DC2C2C;
+    border: 1px solid transparent;
+    height: 0;
+    padding-bottom: 3.125%;
+    position: relative;
+}
+
+.home_reg_reg_link {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #FFFFFF;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 1070px) {
+    .home_reg_reg_link {
+        font-size: 12px;
+    }
+}

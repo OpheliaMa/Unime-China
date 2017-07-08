@@ -1,0 +1,31 @@
+
+.home_cont_us_container {
+    background: url("http://oq9er0rnu.bkt.clouddn.com/address_bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: transparent;
+    background-position: 50% 50%;
+    height: 0;
+    padding-bottom: 30.208%;
+    position: relative;
+}
+
+.home_cont_us_title, .home_cont_us_content {
+    color: #FFFFFF;
+    position: absolute;
+    left: 50.52%;
+}
+
+.home_cont_us_title {
+    top: 13.793%;
+    font-size: 24px;
+}
+
+.home_cont_us_content {
+    top: 26.896%;
+}
+
+.home_cont_us_content p {
+    font-size: 14px;
+    line-height: 28px;
+}

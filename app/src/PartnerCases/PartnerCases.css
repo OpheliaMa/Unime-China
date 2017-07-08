@@ -1,0 +1,77 @@
+.pc_container {
+    position: relative;
+}
+
+.pc_kv {
+    background-size: auto;
+    background: transparent url("http://oq9er0rnu.bkt.clouddn.com/service_kv.png") no-repeat 50% 50%;
+    height: 0;
+    padding-bottom: 33.85%;
+}
+
+.pc_empty {
+    height: 740px;
+    background-color: #fafafa;
+}
+
+.pc_content_container {
+    position: absolute;
+    width: 980px;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.pc_content_container_inner {
+    position: relative;
+    padding-left: 84px;
+    padding-top: 54px;
+    background-color: #FFFFFF;
+}
+
+.pc_content_title {
+    font-size: 32px;
+    color: #DC2C2C;
+}
+
+.pc_content_sub_title {
+    font-size: 20px;
+    color: #DC2C2C;
+    margin-bottom: 20px;
+}
+
+.pc_content_desc p {
+    font-size: 14px;
+    color: #333;
+    line-height: 32px;
+}
+
+.pc_content_desc_container {
+    padding-bottom: 40px;
+}
+
+.pc_content_data_container {
+    margin-top: 50px;
+    height: 260px;
+}
+
+.pc_content_data_link {
+    display: block;
+    position: absolute;
+    text-align: center;
+    right: 185px;
+    bottom: 90px;
+}
+
+.pc_content_data_download_text {
+    color: #DC2C2C;
+    font-size: 12px;
+}
+
+.pc_content_container_inner img {
+    margin: 0 auto;
+}
