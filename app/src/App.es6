@@ -26,11 +26,11 @@ class UniMe extends React.Component {
                 <div className="container">
                     <TopBar />
                     <Switch>
-                        <Route exact path="/" component={HomePage}/>
-                        <Route path="/core" component={CoreProject}/>
-                        <Route path="/service" component={ProService}/>
-                        <Route path="/cases" component={PartnerCases}/>
-                        <Route path="/about" component={AboutUs}/>
+                        <Route exact path="/chinese/" component={HomePage}/>
+                        <Route path="/chinese/core" component={CoreProject}/>
+                        <Route path="/chinese/service" component={ProService}/>
+                        <Route path="/chinese/cases" component={PartnerCases}/>
+                        <Route path="/chinese/about" component={AboutUs}/>
                         <Route component={HomePage}/>
                     </Switch>
                 </div>

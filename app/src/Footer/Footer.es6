@@ -16,20 +16,20 @@ class Footer extends React.Component {
 
                 <div className="home_footer_nav_container">
                     <div className="home_footer_logo_container">
-                        <img className="home_footer_logo" src="http://oq9er0rnu.bkt.clouddn.com/logo_bottom.png"/>
+                        <img className="home_footer_logo" src="http://oq9er0rnu.bkt.clouddn.com/logo_bottom_revised.png"/>
                     </div>
                     <div className="home_footer_nav">
-                        <div className="home_footer_nav_text"><NavLink to="/" exact activeClassName="selected">主页</NavLink></div>
+                        <div className="home_footer_nav_text"><NavLink to="/chinese/" exact activeClassName="selected">主页</NavLink></div>
                         <i></i>
-                        <div className="home_footer_nav_text"><NavLink to="/core" activeClassName="selected">核心项目</NavLink></div>
+                        <div className="home_footer_nav_text"><NavLink to="/chinese/core" activeClassName="selected">核心项目</NavLink></div>
                         <i></i>
-                        <div className="home_footer_nav_text"><NavLink to="/service" activeClassName="selected">专业服务</NavLink></div>
+                        <div className="home_footer_nav_text"><NavLink to="/chinese/service" activeClassName="selected">专业服务</NavLink></div>
                         <i></i>
-                        <div className="home_footer_nav_text"><NavLink to="/cases" activeClassName="selected">合作伙伴及案例</NavLink></div>
+                        <div className="home_footer_nav_text"><NavLink to="/chinese/cases" activeClassName="selected">合作伙伴及案例</NavLink></div>
                         <i></i>
-                        <div className="home_footer_nav_text"><NavLink to="/about" activeClassName="selected">关于我们</NavLink></div>
+                        <div className="home_footer_nav_text"><NavLink to="/chinese/about" activeClassName="selected">关于我们</NavLink></div>
                         <i></i>
-                        <div className="home_footer_nav_text"><NavLink to="/">中文版</NavLink></div>
+                        <div className="home_footer_nav_text"><a href="/">英文版</a></div>
                     </div>
                 </div>
 
